@@ -45,3 +45,16 @@ part =  '              jkfvh      '
 console.log(part.trim());
 //The trimStart() method works like trim(), but removes whitespace only from the start of a string.
 //The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
+
+//The padStart() method pads a string with another string:
+let text4 = '40393';
+console.log(text4.padEnd(9,'x'));
+console.log(text4.padStart(9,'x'));
+
+//Extracting String Characters
+//charAt(position)
+console.log(text2.charAt(5));
+//The charCodeAt() method returns the unicode of the character at a specified index in a string:
+console.log(text2.charCodeAt(5));
+//property accsecc
+console.log(text3[9]);
